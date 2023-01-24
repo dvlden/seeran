@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "modulz",
+  "version": "1.0.0",
+  "description": "Starting point of a new module for public or private use.",
+  "main": "dist/modulz.js",
+  "module": "dist/modulz.mjs",
+  "typings": "dist/modulz.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "modulz",
+    "module",
+    "typescript",
+    "rollup",
+    "esbuild"
+  ],
+  "repository": "github:dvlden/modulz",
+  "author": "Nenad Novaković <n.dvlden@gmail.com> (https://dvl.sh/)",
+  "funding": "https://github.com/sponsors/dvlden",
+  "license": "MIT",
+  "packageManager": "pnpm@6.32.4",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@dvlden/config": "^0.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "esbuild": "^0.17.4",
+    "prettier": "^2.8.3",
+    "rollup": "^3.10.1",
+    "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.1"
+  }
+}
