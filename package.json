@@ -1,5 +1,5 @@
 {
-  "name": "seeran",
+  "name": "@dvlden/seeran",
   "version": "1.0.0",
   "description": "Simple pseudorandom number generator that takes a seed as string or number.",
   "main": "dist/index.js",
